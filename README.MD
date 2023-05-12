@@ -2,7 +2,7 @@ Libreria MatrizLed
 =======================
 Arduino
 -------
-Para instalar esta librería en Arduino solo hay que descargar el fichero "ZIP" pulsando [AQUÍ](https://github.com/Ricardo1366/Libreria_MatrizLed/archive/refs/heads/master.zip). Una vez descargado se instala desde la opción de menú "Programa | Incluir librería | Añadir biblioteca ZIP"
+Para instalar esta librería en Arduino solo hay que descargar el fichero "ZIP" pulsando [AQUÍ](https://github.com/AsociacionMakerAlicante/Libreria_MatrizLed/archive/refs/heads/master.zip). Una vez descargado se instala desde la opción de menú "Programa | Incluir librería | Añadir biblioteca ZIP"
 ![Instalar librería ZIP](https://github.com/AsociacionMakerAlicante/MakAlc_Alarma/raw/master/test/Instalar_Libreria_Zip.JPG)
 
 PlaformIO
@@ -10,7 +10,7 @@ PlaformIO
 Para trabajar con esta librería en PlatormIO solo tienes que incluir en el fichero platformio.ini el siguiente texto:
 ```text
 lib_deps =
-           https://github.com/Ricardo1366/Libreria_MatrizLed@^1.1.0
+           https://github.com/AsociacionMakerAlicante/Libreria_MatrizLed@^1.1.0
 ```
 Documentación
 =============
@@ -21,7 +21,7 @@ Si miramos la coordenada 0,0 le corresponde la dirección 15. A la 1,1 la 9 o a 
 
 Utilizando esta clase, solo tienes que declarar la matriz y cuando le pasas las coordenadas te devuelve la dirección física del led.
 
-![Matriz led 4x4](https://github.com/Ricardo1366/Libreria_MatrizLed/blob/master/examples/Matriz_8x8.jpg)
+![Matriz led 4x4](https://github.com/AsociacionMakerAlicante/Libreria_MatrizLed/blob/master/examples/Matriz_8x8.jpg)
 
 La declaración es la siguiente:
 ```cpp
@@ -46,7 +46,7 @@ primeraFila = Que fila se considera la primera en la matriz de leds, la superior
 
 En la siguiente imagen se ve en que posición de la matriz se guarda cada dirección física del led en función de si la primera fila es la superior o la inferior.
 
-![Ubicación primera fila](https://github.com/Ricardo1366/Libreria_MatrizLed/blob/master/examples/Ubicacion_primera_fila.jpg)
+![Ubicación primera fila](https://github.com/AsociacionMakerAlicante/Libreria_MatrizLed/blob/master/examples/Ubicacion_primera_fila.jpg)
 
 __posicion__: Devuelve la posición física del led en la tira.
 
